@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <title>Manchester United — Create an Account </title>
+   <meta name="odzivnost" content="width=device-width, initial-scale=1.0">  <!-- da je lahko stran responsive -->
+  <link rel="stylesheet" href="css/style3.css">
+   <link rel="icon" href="slike1/manUtd.ico" type="image/icon-x">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><!-- Vključi knjižnico SweetAlert2 za prikaz obvestil -->
+  <script src="JS/register.js"></script>
+
+
+
+</head>
+<body>
+  <div id="postavitev">
+    <div class="sirina">
+      <div class="obrazec" role="main" >
+        <div class="logo">
+          <img src="img/manchesterunited.svg" alt="Manchester United Logo">
+        </div>
+        <h1 id="title">CREATE AN ACCOUNT</h1>
+        <div class="sub">Already a member? <a class="link" href="index.html">Log in</a></div>
+        
+        <form id="createAccountForm"  method="post"><!--za uporabo JavaScript-->
+          <div class="field">
+            <label for="first-name">First Name</label>
+            <input id="first-name" name="first-name" type="text" placeholder="FirstName" maxlength="7" required>
+          </div>
+
+          <div class="field">
+            <label for="surname">Surname</label>
+            <input id="surname" name="surname" type="text" placeholder="Surname" maxlength="7" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="name@gmail.com" maxlength="17" required>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter your password" minlength="5" maxlength="10" required>
+          </div>
+
+          <div class="field">
+            <label for="confirm-password">Confirm Password</label>
+            <input id="confirm-password" name="confirm-password" type="password" placeholder="Confirm your password" minlength="5" maxlength="10" required>
+          </div>
+
+          <div class="field">
+            <label for="dob">Date of Birth</label>
+            <input id="dob" name="dob" type="date" required>
+          </div>
+
+          <div class="field">
+            <label for="country">Country</label>
+          <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belize">Belize</option>
+                <option value="Benin">Benin</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Canada">Canada</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Finland">Finland</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Greece">Greece</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Iceland">Iceland</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Iran">Iran</option>
+                <option value="Iraq">Iraq</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Japan">Japan</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Malta">Malta</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Norway">Norway</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Romania">Romania</option>
+                <option value="Russia">Russia</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Spain">Spain</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Zambia">Zambia</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+              </select>
+          </div>
+
+          <input class="btn" type="submit" value="CREATE ACCOUNT">
+
+          <div class="hr"><span>Or</span></div>
+
+          <div class="social">
+            <a href="#" role="button"><img src="img/fbLogo.svg" alt="Facebook Logo">Sign in with Facebook </a>
+            <a href="#" role="button"><img src="img/googleLogo.svg" alt="Facebook Logo"> Sign in with Google</a>
+            <a href="#" class="apple" role="button" style="color: #fff;"><img src="img/appleLogo.svg" alt="Facebook Logo">Sign in with Apple</a>
+          </div>
+       </form>
+
+        <div class="noga">
+          Having trouble signing up? <a href="#">Get Help</a>
+          <div style="margin-top:8px;font-size:12px;color:#666">
+            Access <a href="#">United Store</a>, <a href="#">Ticketing</a>, 
+            <a href="#">MUTV</a> and <a href="#">manutd.com</a>
+          </div>
+          <div style="margin-top:10px;font-size:12px;color:#aaa">
+            © 2025 - Manchester United Identity - <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
