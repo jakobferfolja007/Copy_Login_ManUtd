@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Swal.fire({
         icon: "error",
         title: "Password Mismatch",
-        text: "Passwords do not match. Please try again."
+        text: "Passwords do not match. Please try again.",
+         confirmButtonColor: "#000000ff"
       });
       return;
     }
@@ -34,7 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     Swal.fire({
       icon: "success",
       title: "Account Created",
-      text: `Welcome to Manchester United, ${firstName}!`
+      text: `Welcome to Manchester United, ${firstName}!`,
+      confirmButtonColor: "#000000ff",// bela barva gumba
     }).then(() => {
       // Preusmeritev na prijavno stran
       window.location.href = "jakobferfolja007.github.io/index.html";

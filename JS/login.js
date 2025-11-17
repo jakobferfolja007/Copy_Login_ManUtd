@@ -20,10 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
     Swal.fire({
       icon: "success",
       title: "Login Successful",
-      text: `Welcome back, ${email}!`
+      text: `Welcome back, ${email}!`,
+      confirmButtonColor: "#000000ff",
     }).then(() => {
       // Tukaj lahko preusmeriš uporabnika
-      window.location.href = "jakobferfolja007.github.io/index.html";
+      window.location.href = "index.html";
     });
   });
 });
