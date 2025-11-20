@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       confirmButtonColor: "#000000ff",// bela barva gumba
     }).then(() => {
       // Preusmeritev na prijavno stran
-      window.location.href = "jakobferfolja007.github.io/index.html";
+      window.location.href = "index.html";
     });
   });
 });
