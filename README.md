@@ -11,7 +11,7 @@ https://jakobferfolja007.github.io/Copy_Login_ManUtd/
 
 ---
 
-##  UI Comparison
+##   Comparison
 
 ### Original login form (reference):
 <img src="img/Original.png" alt="Original login UI" width="300">
