@@ -34,7 +34,18 @@ Stran si lahko pogledaš tukaj:
 ## Struktura projekta
 - `index.html` – glavna datoteka s strukturo obrazca  
 - `style.css` – glavni CSS za stilizacijo  
-- `js/` – JavaScript datoteke:  
+- `js/` – JavaScript datoteki vsebujeta:  
   - **SweetAlert** za prikaz personaliziranih popup obvestil  
   - Skripta za **maskiranje e-maila in gesla** po submitu  
 - `img/` – slike
+## Tehnične podrobnosti
+
+- **login.js** – maskira e-mail in geslo ob vnosu ter uporablja SweetAlert za sporočila  
+- **register.js** – upravlja registracijski obrazec, validacijo in maskiranje gesel  
+- Strani so **responsive** in se prilagajajo mobilnim napravam  
+
+---
+
+## Varnost
+
+ Ta projekt ne shranjuje ali pošilja nobenih podatkov – gre zgolj za demonstracijo in učenje.
