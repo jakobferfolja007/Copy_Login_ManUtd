@@ -1,52 +1,40 @@
 # Copy_Login_ManUtd
 
-Reproduction of the Manchester United login interface, created for educational purposes to practice HTML, CSS, and JavaScript.  
-This project simulates the visual layout of the official login page but does not implement real authentication.
+Replika (kopija) prijavne strani Manchester United, narejena za učenje HTML/CSS/JS ter razumevanje strukture login obrazcev.  
+Projekt ni povezan z Manchester United FC – narejen je izključno za izobraževalne namene.
 
----
-
-##  Live Demo
- **GitHub Pages:**  
+##  Splena stran
+Stran si lahko pogledaš tukaj:  
 https://jakobferfolja007.github.io/Copy_Login_ManUtd/
 
 ---
 
-##   Comparison
+##  Primerjava
 
-### Original login form (reference):
-<img src="img/Original.png" alt="Original login UI" width="300">
+### Originalni login obrazec (po katerem sem se zgledoval):
+<img src="img/Original.png" alt="Original" width="300">
 
-### My recreated login form:
-<img src="img/mojObrazec.png" alt="My login UI" width="300">
-
----
-
-##  Technologies Used
-
-| Technology | Purpose |
-|-----------|---------|
-| **HTML5** | Structure of the login form |
-| **CSS3** | Styling, layout, responsiveness |
-| **JavaScript** | Input masking, SweetAlert pop-ups |
-| **SweetAlert2** | Custom alert dialogs |
-| **GitHub Pages** | Hosting the live demo |
+### Moj login obrazec:
+<img src="img/mojObrazec.png" alt="Moj obrazec" width="300">
 
 ---
 
-##  Project Purpose
-
-The goal of this project is to:
-
-- Practice front-end development (HTML / CSS / JS)
-- Understand login form structure and UI layout
-- Learn how to visually replicate an existing interface
-- Implement JavaScript functionality:
-  - Email masking  
-  - Password masking  
-  - SweetAlert feedback pop-ups
-- Improve sense of spacing, typography, alignment, and UX behavior
+##  Namen projekta
+- Vadba **HTML**, **CSS** in **JavaScript**
+- Učenje kopiranja vizualnega dizajna (UI layout)
+- Razumevanje strukture login obrazcev
+- Delo z JavaScript knjižnicami (SweetAlert)
+- Maskiranje e-maila in gesla (prikaz skritih znakov)
 
 ---
 
+##  Struktura projekta
+- `index.html` – glavna datoteka s strukturo obrazca  
+- `style.css` – glavni CSS za stilizacijo  
+- `js/` – JavaScript datoteke:
+  - **SweetAlert** za prikaz personaliziranih popup obvestil  
+  - Skripta za **maskiranje e-maila in gesla** po submitu  
+- `img/` – slike 
 
+---
 
