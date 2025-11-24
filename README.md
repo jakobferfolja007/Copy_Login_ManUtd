@@ -3,5 +3,5 @@
 Login forma po kateri sm se zgledoval 
 
 
-![Original](img/Orginal.png)
+![Original](img/Original.png)
 
