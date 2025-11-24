@@ -1,41 +1,52 @@
 # Copy_Login_ManUtd
 
-Replika (kopija) prijavne strani Manchester United, narejena za učenje HTML/CSS in razumevanje strukture login obrazcev.  
-Projekt ni povezan z Manchester United FC – narejen je izključno za izobraževalne namene.
+Reproduction of the Manchester United login interface, created for educational purposes to practice HTML, CSS, and JavaScript.  
+This project simulates the visual layout of the official login page but does not implement real authentication.
 
-## 🔗 Demo stran
-Stran si lahko pogledaš tukaj:  
+---
+
+##  Live Demo
+ **GitHub Pages:**  
 https://jakobferfolja007.github.io/Copy_Login_ManUtd/
 
 ---
 
-## 📸 Primerjava login form
+##  UI Comparison
 
-### Originalni login obrazec (po katerem sem se zgledoval):
-<img src="img/Original.png" alt="Original" width="300">
+### Original login form (reference):
+<img src="img/Original.png" alt="Original login UI" width="300">
 
-### Moj login obrazec:
-<img src="img/mojObrazec.png" alt="Moj obrazec" width="300">
-
----
-
-## 📚 Namen projekta
-- Vadba **HTML** in **CSS**
-- Učenje kopiranja vizualnega dizajna (UI layout)
-- Razumevanje strukture login obrazcev
-- Pridobivanje občutka za layout, tipografijo, poravnavo elementov ipd.
+### My recreated login form:
+<img src="img/mojObrazec.png" alt="My login UI" width="300">
 
 ---
 
-## 🧱 Struktura projekta
-- `index.html` – glavna datoteka s strukturo obrazca  
-- `style.css` – stilska predloga  
-- `img/` – slike za prikaz originalne in lastne verzije login forme  
+##  Technologies Used
+
+| Technology | Purpose |
+|-----------|---------|
+| **HTML5** | Structure of the login form |
+| **CSS3** | Styling, layout, responsiveness |
+| **JavaScript** | Input masking, SweetAlert pop-ups |
+| **SweetAlert2** | Custom alert dialogs |
+| **GitHub Pages** | Hosting the live demo |
 
 ---
 
-## ▶️ Kako zaženem lokalno?
+##  Project Purpose
 
-1. Kloniraj repozitorij:
-   ```bash
-   git clone https://github.com/jakobferfolja007/Copy_Login_ManUtd.git
+The goal of this project is to:
+
+- Practice front-end development (HTML / CSS / JS)
+- Understand login form structure and UI layout
+- Learn how to visually replicate an existing interface
+- Implement JavaScript functionality:
+  - Email masking  
+  - Password masking  
+  - SweetAlert feedback pop-ups
+- Improve sense of spacing, typography, alignment, and UX behavior
+
+---
+
+
+
