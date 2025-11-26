@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       return;
     }
-    if(email!=correctEmail && password!=correctPassword){
+    if(email!=correctEmail || password!=correctPassword){
        Swal.fire({
         icon: "error",
         title: "Missing Information",
@@ -38,6 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
         // Tukaj lahko preusmeriš uporabnika
         window.location.href = "index.html";
       });
+
+      
     
   });
 });
+function sporocilo(event){
+        Swal.fire({
+          title: "Credit",
+          text: "Jakob Ferfolja",
+          icon: "info",
+          confirmButtonColor: "#000000ff"
+        });
+      }

@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
- margin: 0;
+  margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
   background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgb(0, 0, 0) 100%);
@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
+  }
 
 .sirina {
   width: 100%;
@@ -32,14 +32,21 @@ body {
 .logo {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
-.logo img {
+.logo-img {
   max-width: 100px;
   height: auto;
+  cursor: pointer; /* pokaže da je klikabilna */
+  transition: transform 0.3s ease;/*v kolikšnem času se poveča za 1.05 sekunde*/
+  
 }
 
+.logo-img:hover {
+  transform: scale(1.05) rotate(5deg); /* rahla animacija ob hoverju */
+}
 
 h1 {
   color: #c70101;
@@ -74,7 +81,7 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-/* Gumb za oddajo obrazca */
+
 .btn {
   background-color: #c70101;
   color: white;
@@ -85,7 +92,7 @@ input {
   font-weight: bold;
   cursor: pointer;
 }
-/* Pomožne povezave za obnovitev podatkov */
+
 .links {
   margin-top: 10px;
   font-size: 13px;

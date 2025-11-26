@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const confirmPassword = document.getElementById("confirm-password").value;
     const dob = document.getElementById("dob").value;
     const country = document.getElementById("country").value;
+    const today = new Date().toISOString().split("T")[0]; //gleda trenutn datum in ga pretvori input type date znano obliko
+  document.getElementById("dob").setAttribute("max", today); //današnji datum je natavlejn kot max
 
     if (!firstName || !surname || !email || !password || !confirmPassword || !dob || !country) {
       Swal.fire({
@@ -43,3 +45,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+function sporocilo(event) {
+  event.preventDefault();
+  Swal.fire({
+    title: "Credit",
+    text: "Jakob Ferfolja",
+    icon: "info",
+    confirmButtonColor: "#000000ff"
+  });
+}

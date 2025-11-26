@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgb(0, 0, 0) 100%);
+  background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
   margin: 0;
   padding: 0;
 }
@@ -34,9 +34,16 @@ body {
   margin-bottom: 20px;
 }
 
-.logo img {
+.logo-img {
   max-width: 100px;
   height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 50%; /* da je krožen */
+}
+
+.logo-img:hover {
+  transform: scale(1.05) rotate(5deg);
 }
 
 h1 {
@@ -83,7 +90,7 @@ input {
   background-color: #fff;
 }
 
-/* Gumb za oddajo obrazca */
+
 .btn {
   background-color: #c70101;
   color: white;
@@ -93,20 +100,11 @@ input {
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 10px; /* dodatek iz style3.css */
+  margin-top: 10px; 
 }
 
-/* Pomožne povezave za obnovitev podatkov */
-.links {
-  margin-top: 10px;
-  font-size: 13px;
-}
 
-.links a {
-  margin-right: 10px;
-  color: #0073e6;
-  text-decoration: none;
-}
+
 
 /* Razdelilnik med prijavo in družbenimi omrežji */
 .hr {
@@ -143,7 +141,7 @@ input {
   border-radius: 4px;
   text-decoration: none;
   color: #333;
-  margin-top: 10px; /* dodatek iz style3.css */
+  margin-top: 10px; 
 }
 
 .social img {
@@ -156,7 +154,7 @@ input {
 }
 
 .noga {
-  margin-top: 30px; /* spremenjeno iz style3.css */
+  margin-top: 30px; 
   font-size: 13px;
   color: #666;
 }
