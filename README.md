@@ -13,17 +13,20 @@ Stran si lahko pogledaš tukaj 👉
 ---
 
 ## 🔍 Primerjava
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
 
   <div style="text-align: center;">
-    <p>Originalni login obrazec</p> <p>Moj login obrazec</p>
-    <img src="img/Original.png" alt="Original" width="280" height="400px"> <img src="img/mojObrazec.png" alt="Moj obrazec" width="280" height="400px">
+    <p>Originalni login obrazec</p>
+    <img src="img/Original.png" alt="Original" style="width: 280px; height: 400px; object-fit: cover;">
   </div>
 
-  
+  <div style="text-align: center;">
+    <p>Moj login obrazec</p>
+    <img src="img/mojObrazec.png" alt="Moj obrazec" style="width: 280px; height: 400px; object-fit: cover;">
+  </div>
 
 </div>
+
 
 ---
 
