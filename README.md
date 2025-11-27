@@ -14,14 +14,13 @@ Stran si lahko pogledaš tukaj 👉
 
 ## 🔍 Primerjava
 
-<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div>
     <p align="center"><strong>Originalni login obrazec</strong></p>
     <img src="img/Original.png" alt="Original" width="280">
   </div>
 
   <div>
-    
     <p align="center"><strong>Moj login obrazec</strong></p>
     <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
   </div>
@@ -62,5 +61,3 @@ Stran si lahko pogledaš tukaj 👉
 ## 🔐 Varnost
 Projekt **ne shranjuje** ali **pošilja** nobenih vnesenih podatkov.  
 Gre izključno za **učni primer** in demonstracijo delovanja login obrazca.
-
----
