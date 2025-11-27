@@ -18,7 +18,7 @@ Stran si lahko pogledaš tukaj 👉
 
   <div style="text-align: center;">
     <p>Originalni login obrazec</p> <p>Moj login obrazec</p>
-    <img src="img/Original.png" alt="Original" width="280"> <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
+    <img src="img/Original.png" alt="Original" width="280" height="400px"> <img src="img/mojObrazec.png" alt="Moj obrazec" width="280" height="400px">
   </div>
 
   
