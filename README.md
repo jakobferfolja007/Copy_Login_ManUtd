@@ -17,15 +17,10 @@ Stran si lahko pogledaš tukaj 👉
 
   <div style="text-align: center;">
     <p>Originalni login obrazec</p>
-    <img src="img/Original.png" alt="Original" style="width: 280px; height: 400px; folat:left;s">
+    <img src="img/bothPictures.png" alt="bothPictures" style="width: 280px; height: 400px;">
   </div>
 
-  <div style="text-align: center;">
-    <p>Moj login obrazec</p>
-    <img src="img/mojObrazec.png" alt="Moj obrazec" style="width: 280px; height: 400px; float:left;">
-  </div>
 
-</div>
 
 
 ---
