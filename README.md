@@ -1,18 +1,18 @@
-# <div align="center">📌 Replika prijavnega okna za nogometni klub Manchester United</div>
+# <div align="center"> Replika prijavnega okna za nogometni klub Manchester United</div>
 
 Replika (kopija) prijavne strani Manchester United, narejena za učenje **HTML/CSS/JS** ter razumevanje strukture login obrazcev.  
 Projekt **ni povezan z Manchester United FC** – narejen je izključno za izobraževalne namene.
 
 ---
 
-## 🌐 Spletna stran
+##  Spletna stran
 
 Stran si lahko pogledaš tukaj 👉  
 **https://jakobferfolja007.github.io/Copy_Login_ManUtd/**
 
 ---
 
-## 🔍 Primerjava
+##  Primerjava
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
 
   <div style="text-align: center;">
@@ -30,7 +30,7 @@ Stran si lahko pogledaš tukaj 👉
 
 ---
 
-## 🎯 Namen projekta
+##  Namen projekta
 - Vadba **HTML**, **CSS** in **JavaScript**
 - Učenje kopiranja vizualnega dizajna (UI layout)
 - Razumevanje strukture login obrazcev
@@ -39,7 +39,7 @@ Stran si lahko pogledaš tukaj 👉
 
 ---
 
-## 📁 Struktura projekta
+##  Struktura projekta
 - `index.html` – glavna datoteka s strukturo obrazca  
 - `style.css` – glavni CSS za stilizacijo  
 - `js/` – JavaScript datoteki:
@@ -49,6 +49,6 @@ Stran si lahko pogledaš tukaj 👉
 
 ---
 
-## ⚙️ Tehnične podrobnosti
+##  Tehnične podrobnosti
 - **login.js**  
   - maskiranje e-m
