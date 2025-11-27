@@ -17,13 +17,11 @@ Stran si lahko pogledaš tukaj 👉
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div>
     <p align="center"><strong>Originalni login obrazec</strong></p>
-    <img src="img/Original.png" alt="Original" width="280">
+    <img src="img/Original.png" alt="Original" width="280">  <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
+  
   </div>
 
-  <div>
-    <p align="center"><strong>Moj login obrazec</strong></p>
-    <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
-  </div>
+ 
 </div>
 
 ---
