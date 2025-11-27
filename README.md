@@ -16,7 +16,7 @@ Stran si lahko pogledaš tukaj 👉
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
 
   <div style="text-align: center;">
-    <p>Primrjava Originalnega in mojega obrazca</p>
+    <p>Primrjava originalnega in mojega obrazca</p>
     <img src="img/bothPictures.png" alt="bothPictures" style=height: 400px;">
   </div>
 
