@@ -1,51 +1,65 @@
-# Replika prijavnega okna za nogometni klub Manchester United 
+# <div align="center">📌 Replika prijavnega okna za nogometni klub Manchester United</div>
 
 Replika (kopija) prijavne strani Manchester United, narejena za učenje **HTML/CSS/JS** ter razumevanje strukture login obrazcev.  
 Projekt **ni povezan z Manchester United FC** – narejen je izključno za izobraževalne namene.
 
 ---
 
-## Spletna stran
+## 🌐 Spletna stran
 
-Stran si lahko pogledaš tukaj:  
-[https://jakobferfolja007.github.io/Copy_Login_ManUtd/](https://jakobferfolja007.github.io/Copy_Login_ManUtd/)
-
----
-
-## Primerjava
-
-### Originalni login obrazec (po katerem sem se zgledoval):
-<img src="img/Original.png" alt="Original" width="300">
-
-### Moj login obrazec:
-<img src="img/mojObrazec.png" alt="Moj obrazec" width="300">
+Stran si lahko pogledaš tukaj 👉  
+**https://jakobferfolja007.github.io/Copy_Login_ManUtd/**
 
 ---
 
-## Namen projekta
-- Vadba **HTML**, **CSS** in **JavaScript**  
-- Učenje kopiranja vizualnega dizajna (UI layout)  
-- Razumevanje strukture login obrazcev  
-- Delo z JavaScript knjižnicami (**SweetAlert**)  
-- Maskiranje e-maila in gesla (prikaz skritih znakov)  
+## 🔍 Primerjava
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+  <div>
+    <p align="center"><strong>Originalni login obrazec</strong></p>
+    <img src="img/Original.png" alt="Original" width="280">
+  </div>
+
+  <div>
+    <p align="center"><strong>Moj login obrazec</strong></p>
+    <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
+  </div>
+</div>
 
 ---
 
-## Struktura projekta
+## 🎯 Namen projekta
+- Vadba **HTML**, **CSS** in **JavaScript**
+- Učenje kopiranja vizualnega dizajna (UI layout)
+- Razumevanje strukture login obrazcev
+- Delo z JS knjižnicami (**SweetAlert**)
+- Maskiranje e-maila in gesla (prikaz skritih znakov)
+
+---
+
+## 📁 Struktura projekta
 - `index.html` – glavna datoteka s strukturo obrazca  
 - `style.css` – glavni CSS za stilizacijo  
-- `js/` – JavaScript datoteki vsebujeta:  
-  - **SweetAlert** za prikaz personaliziranih popup obvestil  
-  - Skripta za **maskiranje e-maila in gesla** po submitu  
-- `img/` – slike
-## Tehnične podrobnosti
-
-- **login.js** – maskira e-mail in geslo ob vnosu ter uporablja SweetAlert za sporočila  
-- **register.js** – upravlja registracijski obrazec, validacijo in maskiranje gesel  
-- Strani so **responsive** in se prilagajajo mobilnim napravam  
+- `js/` – JavaScript datoteki:
+  - **login.js** – maskira e-mail in geslo + SweetAlert
+  - **register.js** – validacija in maskiranje gesla
+- `img/` – slike projekta
 
 ---
 
-## Varnost
+## ⚙️ Tehnične podrobnosti
+- **login.js**  
+  - maskiranje e-maila in gesla  
+  - prikaz SweetAlert obvestil  
+- **register.js**
+  - validacija vnosov  
+  - prikaz napak in maskiranje gesel  
+- Stran je **responsive** in prilagojena mobilnim napravam
 
- Ta projekt ne shranjuje ali pošilja nobenih podatkov – gre zgolj za demonstracijo in učenje.
+---
+
+## 🔐 Varnost
+Projekt **ne shranjuje** ali **pošilja** nobenih vnesenih podatkov.  
+Gre izključno za **učni primer** in demonstracijo delovanja login obrazca.
+
+---
