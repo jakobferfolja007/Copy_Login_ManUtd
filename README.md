@@ -16,7 +16,7 @@ Stran si lahko pogledaš tukaj 👉
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div>
-   Originalni login obrazec Moj login obrazec
+   <pre>Originalni login obrazec                             Moj login obrazec</pre>
     <img src="img/Original.png" alt="Original" width="280">  <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
   
   </div>
