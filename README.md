@@ -1,4 +1,4 @@
-# Replika prijavnega okna za nogometni klub Manchester United 
+<center># Replika prijavnega okna za nogometni klub Manchester United </center>
 
 Replika (kopija) prijavne strani Manchester United, narejena za učenje **HTML/CSS/JS** ter razumevanje strukture login obrazcev.  
 Projekt **ni povezan z Manchester United FC** – narejen je izključno za izobraževalne namene.
