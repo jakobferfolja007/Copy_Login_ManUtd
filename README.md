@@ -15,13 +15,17 @@ Stran si lahko pogledaš tukaj 👉
 ## 🔍 Primerjava
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <div>
-   <pre>Originalni login obrazec                             Moj login obrazec</pre>
-    <img src="img/Original.png" alt="Original" width="280">  <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
-  
+
+  <div style="text-align: center;">
+    <p>Originalni login obrazec</p>
+    <img src="img/Original.png" alt="Original" width="280">
   </div>
 
- 
+  <div style="text-align: center;">
+    <p>Moj login obrazec</p>
+    <img src="img/mojObrazec.png" alt="Moj obrazec" width="280">
+  </div>
+
 </div>
 
 ---
@@ -47,15 +51,4 @@ Stran si lahko pogledaš tukaj 👉
 
 ## ⚙️ Tehnične podrobnosti
 - **login.js**  
-  - maskiranje e-maila in gesla  
-  - prikaz SweetAlert obvestil  
-- **register.js**
-  - validacija vnosov  
-  - prikaz napak in maskiranje gesel  
-- Stran je **responsive** in prilagojena mobilnim napravam
-
----
-
-## 🔐 Varnost
-Projekt **ne shranjuje** ali **pošilja** nobenih vnesenih podatkov.  
-Gre izključno za **učni primer** in demonstracijo delovanja login obrazca.
+  - maskiranje e-m
