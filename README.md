@@ -17,7 +17,7 @@ Stran si lahko pogledaš tukaj 👉
 
   <div style="text-align: center;">
     <p>Primrjava originalnega in mojega obrazca</p>
-    <img src="img/bothPictures.png" alt="bothPictures" style=height: 400px;">
+    <img src="img/LoginPictures.png" alt="LoginPictures" style=height: 400px;">
   </div>
 
 
