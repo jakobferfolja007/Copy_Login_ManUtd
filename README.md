@@ -46,11 +46,10 @@ Stran si lahko pogledaš tukaj 👉
 
 # Tehnične podrobnosti
 
-- **login.js** – maskira e-mail in geslo ob vnosu ter uporablja SweetAlert za sporočila.  
+- **login.js** – maskira e-mail(jakobferfolja@gmail.com) in geslo(misko) ob vnosu ter uporablja SweetAlert za sporočila.  
 - **register.js** – upravlja registracijski obrazec, validacijo in maskiranje gesel.  
 - Strani so **responsive** in se prilagajajo mobilnim napravam.  
 
 # Varnost
 
 Ta projekt **ne shranjuje ali pošilja nobenih podatkov** – gre zgolj za demonstracijo in učenje.
-
