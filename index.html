@@ -1,68 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sl">
 <head>
-  <meta charset="utf-8">
-  <title>Manchester United — Log In </title>
-   <meta name="odzivnost" content="width=device-width, initial-scale=1.0">  <!-- da je lahko stran responsive -->
-  <link rel="stylesheet" href="css/style1.css">
-  <link rel="icon" href="img/manUtd.ico" type="image/icon-x">
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><!-- Vključi knjižnico SweetAlert2 za prikaz obvestil -->
-  <script src="JS/login.js"></script>
+<meta charset="UTF-8">
+<title>Odbij in razbij</title>
+
+<!-- CSS -->
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at center, #020617, #000);
+    color: #00f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ANIMIRANO OZADJE */
+body::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(white 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.1;
+    animation: moveStars 60s linear infinite;
+}
+
+@keyframes moveStars {
+    from { transform: translate(0, 0); }
+    to { transform: translate(-200px, -200px); }
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    border: 2px solid #00f5ff;
+    padding: 50px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px #00f5ff88;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px #00f5ff;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background: transparent;
+    color: #00f5ff;
+    border: 2px solid #00f5ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: #00f5ff;
+    color: #000814;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00f5ff;
+}
+
+.easy {
+    border-color: #4be20f;
+    color: #06be2e;
+}
+
+.easy:hover {
+    background: #4be20f;
+    color: #000814;
+}
+
+.medium {
+    border-color: #ffb703;
+    color: #ffb703;
+}
+
+.medium:hover {
+    background: #ffb703;
+    color: #000814;
+}
+
+.hard {
+    border-color: #ff2e63;
+    color: #ff2e63;
+}
+
+.hard:hover {
+    background: #ff2e63;
+    color: black;
+}
+</style>
+
 </head>
+
 <body>
-  <div id="postavitev">
-    <div class="sirina">
-      <div class="obrazec" role="main" >
-        <div class="logo">
-          <img src="img/manchesterunited.svg" alt="Logo" class="logo-img" onclick="sporocilo(event)">
-        </div>
-        <h1 id="title">LOG IN</h1>
-        <div class="sub">Don't have an account? <a class="link" href="registration.html">Create an account</a></div>
-        
-        <form id="loginForm" action="#" method="post">
-          <div class="field">
-            <label for="email">Email or Supporter ID</label>
-            <input id="email" name="email" type="email" placeholder="name@gmail.com" maxlength="17" required>
-          </div>
 
-          <div class="field">
-            <label for="password">Password</label>
-            <input id="password" name="password" type="password" placeholder="Enter your password" minlength="5" maxlength="10" required>
-          </div>
+<div class="container">
+    <h1 onclick="showCredits()">Odbij in razbij</h1>
+    <div class="subtitle">Izberi težavnost</div>
 
-           <input class="btn" type="submit" value="LOG IN">
-
-          <div class="links">
-            <a href="#">Forgot password?</a>
-            <a href="#">Forgot Supporter ID?</a>
-          </div>
-
-          <div class="hr"><span>Or</span></div>
-
-          <div class="social">
-            <a href="#" role="button"><img src="img/fbLogo.svg" alt="Facebook Logo">Sign in with Facebook </a>
-            <a href="#" role="button"><img src="img/googleLogo.svg" alt="Facebook Logo"> Sign in with Google</a>
-            <a href="#" class="apple" role="button" style="color: #fff;"><img src="img/appleLogo.svg" alt="Facebook Logo">Sign in with Apple</a>
-          </div>
-        </form>
-
-        <div class="noga">
-          Having trouble logging in? <a href="#">Get Help</a>
-          <div style="margin-top:8px;font-size:12px;color:#666">
-            Access <a href="#">United Store</a>, <a href="#">Ticketing</a>, 
-            <a href="#">MUTV</a> and <a href="#">manutd.com</a>
-          </div>
-          <div style="margin-top:10px;font-size:12px;color:#aaa">
-            © 2025 - Manchester United Identity - <a href="#">Privacy Policy</a>
-          </div>
-        </div>
-      </div>
+    <div class="buttons">
+        <button class="easy" onclick="startGame('lahko')">LAHKO</button>
+        <button class="medium" onclick="startGame('srednje')">SREDNJE</button>
+        <button class="hard" onclick="startGame('tezko')">TEŽKO</button>
+        <button onclick="showInstructions()">NAVODILA</button>
     </div>
-  </div>
-  
+</div>
+
+<!-- SweetAlert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- JavaScript -->
+<script>
+function startGame(difficulty) {
+    localStorage.setItem("difficulty", difficulty);
+
+    Swal.fire({
+        title: 'Začetek igre',
+        text: 'Izbrana težavnost: ' + difficulty,
+        icon: 'success',
+        backdrop: false,
+        confirmButtonText: 'Naprej'
+    });
+
+    window.location.href = "game.html";
+}
+
+function showInstructions() {
+    Swal.fire({
+        title: "Navodila",
+        backdrop: false,
+        html:
+            "Premik: puščice<br>" +
+            "SPACE za začetek<br>" +
+            "Razbij vse opeke!",
+        icon: "info",
+        confirmButtonText: "Zapri"
+    });
+}
+function showCredits() {
+    Swal.fire({
+        title: 'Credits ',
+        html: `
+            <b>Avtor:</b> Jakob Ferfolja<br>
+            <b>Razred:</b> 4.RA<br>
+        `,
+        icon: 'info',
+        backdrop: false,
+        confirmButtonText: 'Zapri'
+    });
+}
+</script>
 
 </body>
 </html>
-
-
-
